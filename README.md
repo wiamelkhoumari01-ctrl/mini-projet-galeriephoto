@@ -1,59 +1,49 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Description du projet :
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Ce mini-projet consiste à développer une galerie photo permettant l’ajout et des images via un formulaire sécurisé.
+L’objectif principal est de mettre en pratique les concepts fondamentaux du développement web, notamment la manipulation des Views, Routes, Controllers, la validation des formulaires et le transfert de données entre les différentes couches de l’application.
 
-## About Laravel
+Ce projet s’inscrit dans un cadre D'apprentissage.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Objectifs pédagogiques :
+Comprendre l’architecture MVC (Model – View – Controller)
+Manipuler les routes pour gérer la navigation
+Créer des vues dynamiques
+Implémenter un formulaire avec validation
+Assurer le transfert de données entre le contrôleur et les vues
+Structurer un projet web de manière professionnelle
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Fonctionnalités principales :
+📷 Affichage d’une galerie de photos
+➕ Ajout des donnees via un formulaire
+✅ Validation des champs (titre, image, description…)
+⚠️ Gestion des messages d’erreur et de succès
+🔄 Transmission des données entre Controllers et Views
+🧭 Navigation via routes définies
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Gestion des Routes :
+Les routes permettent de relier les URLs aux contrôleurs.
 
-## Learning Laravel
+Controllers :
+Le contrôleur gère :
+La récupération des données
+La validation du formulaire
+L’envoi des données vers les vues
+La gestion des erreurs
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Views :
+Les vues sont responsables de : L’affichage de la galerie + L’affichage du formulaire + La présentation des messages (erreurs / succès) + Elles reçoivent les données depuis le contrôleur.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Validation du formulaire :
+La validation permet de : Vérifier que tous les champs obligatoires sont remplis + Vérifier le type et la taille de l’image + Empêcher l’envoi de données invalides + En cas d’erreur, un message clair est affiché à l’utilisateur.
 
-## Laravel Sponsors
+Transfert de données :
+Les données sont transmises : Du formulaire vers le Controller + Du Controller vers les Views + Ce mécanisme garantit une séparation claire des responsabilités.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Technologies utilisées  HTML5  CSS3  PHP (architecture MVC)
 
-### Premium Partners
+Nom : Wiam elkhoumari
+Formation : Développement Web / Full Stack
+Année : 2025 – 2026
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
